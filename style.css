@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.navbar{
+    height: 75px;
+    width: 100%;
+    background-color: #023e8a;
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+
+.bg{
+    /* background-color:white; */
+    height: 60px;
+    width: 33%;
+    
+}
+
+
+.logoo{
+    font-size: 2rem;
+    font-weight: bolder;
+    font-style: italic;
+    margin: 20px;
+    color: #90e0ef;
+}
+
+.logo{
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    align-items: center;
+    width: 10%;
+     height: 60px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input{
+    height: 30px;
+    width: 70%;
+    border: none;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 15px;
+    padding: 3px;
+}
+
+.sh{
+    height: 30px;
+    width: 9%;
+    border: none;
+    background-color:#90e0ef;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+
+.obj ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.obj ul li{
+    list-style: none;
+    
+}
+
+
+.obj ul li a{
+    text-decoration: none;
+    color: #90e0ef;
+    font-size: 1.2rem;
+    padding: 6px;
+    border: 1px solid transparent;
+    border-radius: 50px;
+}
+
+.obj ul li a:hover{
+    border:1px solid #caf0f8;
+    background-color: #caf0f8;
+    color: black;
+    transition: 0.5s;
+}
+
+main{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #003566;
+}
+
+.box1
+{
+    background-image: url(imAGES/ironman.jpg);
+    background-size: cover;
+}
+.box2{
+    background-image: url(imAGES/thor.jpg);
+    background-size: cover;
+}
+.box3{
+    background-image: url(imAGES/spiderman.jpg);
+    background-size: cover;
+}
+.box4{
+    background-image: url(imAGES/hulk.jpg);
+    background-size: cover;
+}
+.box5{
+    background-image: url(imAGES/doctorstrange.jpg);
+    background-size: cover;
+}
+.box6{
+    background-image: url(imAGES/captain-america.jpg);
+    background-size: cover;
+}
+.box7{
+    background-image: url(imAGES/starlord.jpg);
+    background-size: cover;
+}
+.box8{
+    background-image: url(imAGES/blackpanther.jpg);
+    background-size: cover;
+}
+.box9{
+    background-image: url(imAGES/bucky.jpg);
+    background-size: cover;
+}
+.box10{
+    background-image: url(imAGES/scarletwitch.jpg);
+    background-size: cover;
+}
+.box11{
+    background-image: url(imAGES/vision.jpg);
+    background-size: cover;
+}
+.box12{
+    background-image: url(imAGES/shuri.jpg);
+    background-size: cover;
+}
+.box13{
+    background-image: url(imAGES/grootandrocket.jpg);
+    background-size: cover;
+}
+.box14{
+    background-image: url(imAGES/nebula.jpg);
+    background-size: cover;
+}
+.box15{
+    background-image: url(imAGES/okoye.jpg);
+    background-size: cover;
+}
+.box16{
+    background-image: url(imAGES/drax.jpg);
+    background-size: cover;
+}
+.box17{
+    background-image: url(imAGES/falcon.jpg);
+    background-size: cover;
+}
+.box18{
+    background-image: url(imAGES/gamora.jpg);
+    background-size: cover;
+}
+.box19{
+    background-image: url(imAGES/wong.jpg);
+    background-size: cover;
+}
+.box20{
+    background-image: url(imAGES/mantis.jpg);
+    background-size: cover;
+}
+.box21{
+    background-image: url(imAGES/jamesrhodes.jpg);
+    background-size: cover;
+}
+
+
+.box{
+    height: 300px;
+    width: 300px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin-top: 50px;
+    transition: 0.5s;
+    
+}
+
+.box:hover{
+    transform: translateY(-10px);
+    /* transform: translate3d(10px); */
+}
+
+.vm{
+    border: none;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    margin: 250px 50px 0px 100px;
+    background-color: white;
+    color: black;
+    font-weight: bolder;
+}
+
+.vm:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+}
